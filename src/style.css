@@ -1,0 +1,404 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+header {
+    background: #3498db;
+}
+header img {
+    margin: 10;
+    margin-left: 25rem;
+    cursor: pointer;
+}
+header ul {
+    display: flex;
+    position: absolute;
+    top: 5%;
+    left: 45%;
+}
+header li {
+    list-style: none;
+    color: white;
+    font-family: fantasy;
+    cursor: pointer;
+    position: none;
+    margin: 0 0 0 7rem;
+}
+.contanier {
+    background: #2980b9;
+    min-height: 100%;
+    height: 25rem;
+}
+.contanier p:nth-child(1) {
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: fantasy;
+    position: absolute;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 17%;
+}
+.contanier input {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 30%;
+    width: 35rem;
+    height: 3rem;
+    margin: 10;
+    font-size: 20px;
+}
+.contanier i {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 63%;
+    top: 31%;
+    color: silver;
+    font-size: 22px;
+    cursor: pointer;
+}
+::placeholder {
+    font-family: fantasy;
+}
+.or {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 40%;
+    color: white;
+    font-family: fantasy;
+    font-weight: bold;
+}
+.or a {
+    color: white;
+}
+.info {
+    background: silver;
+    min-height: 100%;
+    height: 5rem;
+}
+.info ul {
+    display: flex;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 53%;
+}
+.info li {
+    list-style: none;
+    margin: 3rem;
+    color: #063758;
+}
+.main img{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 75%;
+    left: 30%;
+}
+.main p {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 70%;
+    left: 60%;
+}
+.main .f {
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #606060;
+}
+.slide p {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 80%;
+    left: 60%;
+    color: #606060;
+    margin-top: -1.5rem;
+    white-space: nowrap;
+}
+.slide2 p {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 85%;
+    left: 60.8%;
+    color: #606060;
+    margin-top: 0rem;
+    white-space: nowrap;
+}
+.slide a, .slide2 a {
+    color: #3498db;
+}
+.trending {
+    background: #ecf0f1;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 125%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    margin-top: 10rem;
+}
+.trending p {
+    color: black;
+    font-family: fantasy;
+    font-size: 20px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 15%;
+    left: 10%;
+}
+.trending .down {
+    color: black;
+    font-size: 15px;
+    margin-top: 3rem;
+    margin-left: 6.8rem;
+}
+.projects ul {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 60%;
+    left: 22%;
+}
+.projects li {
+    list-style: none;
+    background: white;
+    width: 40rem;
+    height: 5em;
+    margin: 2rem;
+    box-shadow: 10px 10px grey;
+    cursor: pointer;
+}
+.projects li:hover {
+    outline: 2px solid black;
+}
+.img {
+    margin: 1rem;
+}
+.description {
+    color: grey;
+}
+.projectname1 {
+    margin-top: -2rem;
+    margin-left: 8.5rem;
+}
+.projectname2  {
+    margin-top: 5rem;
+    margin-left: 7rem;
+}
+.projectname3 {
+    margin-top: 12rem;
+    margin-left: 13.5rem;
+}
+.projectname4 {
+    margin-top: 19rem;
+    margin-left: 6.6rem;
+}
+.projectname5 {
+    margin-top: 26rem;
+    margin-left: 6.3rem;
+}
+.description1 {
+    margin-top: 0.5rem;
+    margin-left: 15rem;
+    white-space: nowrap;
+}
+.description2  {
+    margin-top: 7rem;
+    margin-left: 14rem;
+    white-space: nowrap;
+}
+.description3 {
+    margin-top: 14rem;
+    margin-left: 15.8rem;
+    white-space: nowrap;
+}
+.description4 {
+    margin-top: 21rem;
+    margin-left: 10rem;
+    white-space: nowrap;
+}
+.description5 {
+    margin-top: 28rem;
+    margin-left: 16.5rem;
+    white-space: nowrap;
+}
+.newreleases p {
+    margin-left: 45rem;
+}
+.newreleases .down {
+    margin-left: 51.5rem;
+}
+.newreleases .projects2 ul {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 60%;
+    left: 60%;
+}
+.newreleases .projects2 li {
+    list-style: none;
+    background: white;
+    width: 40rem;
+    height: 5em;
+    margin: 2rem;
+    box-shadow: 10px 10px grey;
+    cursor: pointer;
+}
+.newreleases .projects2 li:hover {
+    outline: 2px solid black;
+}
+.img {
+    margin: 1rem;
+}
+.newreleases .projectname1 {
+    margin-top: -2rem;
+    margin-left: 9.7rem;
+}
+.newreleases .projectname2  {
+    margin-top: 5rem;
+    margin-left: 10.18rem;
+}
+.newreleases .projectname3 {
+    margin-top: 12rem;
+    margin-left: 5.5rem;
+}
+.newreleases .projectname4 {
+    margin-top: 19rem;
+    margin-left: 6rem;
+}
+.newreleases .projectname5 {
+    margin-top: 26rem;
+    margin-left: 11.7rem;
+}
+.newreleases .description2  {
+    margin-top: 7rem;
+    margin-left: 16.4rem;
+    white-space: nowrap;
+}
+.newreleases .description3 {
+    margin-top: 14rem;
+    margin-left: 19.40rem;
+    white-space: nowrap;
+}
+.newreleases .description4 {
+    margin-top: 21rem;
+    margin-left: 9.7rem;
+    white-space: nowrap;
+}
+.newreleases .description5 {
+    margin-top: 28rem;
+    margin-left: 7.5rem;
+    white-space: nowrap;
+}
+.ae img {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    cursor: pointer;
+    transition: 2s;
+}
+.ae img.active {
+    margin-top: -15px;
+}
+footer {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 241%;
+    min-width: 200%;
+    min-height: 100%;
+    background: #3498db;
+}
+.footer img {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 75%;
+    cursor: pointer;
+    font-size: 5.5rem;
+    top: 10%;
+}
+footer ul {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 25%;
+    left: 75%;
+    display: flex;
+}
+footer li {
+    color: white;
+    font-family: fantasy;
+    font-weight: bold;
+    margin: 10rem;
+    list-style: none;
+}
+footer .two, footer .three, footer .four, .five{
+    display: inline;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 75%;
+    left: 16%
+}
+footer .two li, footer .three li, footer .four li, .five li {
+    margin: 0.5rem;
+    font-size: 15px;
+    font-weight: normal;
+    margin-top: 1rem;
+}
+footer .help {
+    margin-top: 10.5rem;
+}
+footer .two li {
+    margin-left: -1rem;
+    margin-top: 1rem;
+}
+footer .three li {
+    margin-left: 49rem;
+}
+footer .four li {
+    margin-left: 91.5rem;
+    white-space: nowrap;
+}
+footer .five li {
+    margin-left: 145.5rem;
+    white-space: nowrap;
+}
+.stats {
+    color: white;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 60%;
+    left: 76%;
+    white-space: pre-line;
+}
+.stats a {
+    color: white;
+}
+.sponsors {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 285%;
+    left: 50%;
+}
+.sponsors ul {
+    display: flex;
+}
+.sponsors li {
+    margin: 0 0 0 3rem;
+    font-weight: bold;
+    font-family: fantasy;
+    list-style: none;
+    color: white;
+    cursor: pointer;
+}
+.sponsors img {
+    margin-top: -5rem;
+    margin-left: -0.5rem;
+    max-width: 100px;
+    opacity: 0.7;
+}
+.sponsors .sales {
+    margin-top: -7rem;
+}
+.sponsors img:hover {
+    opacity: 1;
+}
